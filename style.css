@@ -1,0 +1,72 @@
+/* Selector 1: Element selector */
+body {
+    font-family: 'Cursive';
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Selector 2: Class selector */
+  .site-title {
+    font-size: 10.5rem;
+    margin: 0;
+  }
+  
+  /* Selector 3: ID selector */
+  #bio {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  #bio h2 {
+    text-align: center;
+  }
+  
+  .bio-content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Style an image */
+  .profile-photo {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #444;
+    margin-right: 20px;
+  }
+  
+  /* Quote section with padding, margin, and border */
+  #quote {
+    font-style: italic;
+    background-color: #e6e6e6;
+    border-left: 4px solid #666;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 5px;
+  }
+  
+  /* Contact section */
+  #contact {
+    font-style: serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
